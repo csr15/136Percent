@@ -223,7 +223,7 @@ header img {
 
 @media (max-width: 570px) {
   .body__wrapper {
-    margin-top: -9vw;
+    margin-top: -10vw;
   }
 }
 
@@ -251,7 +251,7 @@ header img {
     margin-top: 0px;
   }
   header img {
-    margin-top: -10px;
+    margin-top: -15px;
   }
   .about h1 {
     font-size: 26px;
