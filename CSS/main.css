@@ -231,6 +231,9 @@ header img {
   header {
     margin-top: 0px;
   }
+  .body__wrapper .container .section__wrapper {
+    padding: 20px 20px 0 20px;
+  }
   .why__goal .our__why ul,
   .why__goal .our__goal ul {
     padding-left: 10px;
@@ -248,7 +251,7 @@ header img {
     margin-top: 0px;
   }
   header img {
-    margin-top: -20px;
+    margin-top: -10px;
   }
   .about h1 {
     font-size: 26px;
