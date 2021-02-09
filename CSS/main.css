@@ -22,7 +22,7 @@ header img {
 }
 
 .body__wrapper {
-  margin-top: -200px;
+  margin-top: -10vw;
 }
 
 .body__wrapper .container {
@@ -155,27 +155,6 @@ header img {
   margin: auto;
 }
 
-@media (max-width: 1700px) {
-  .body__wrapper {
-    margin-top: -180px;
-  }
-}
-
-@media (max-width: 1500px) {
-  .body__wrapper {
-    margin-top: -140px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .body__wrapper {
-    margin-top: -110px;
-  }
-  header img {
-    margin-top: -40px;
-  }
-}
-
 @media (max-width: 991px) {
   .body__wrapper {
     margin-top: -100px;
@@ -240,6 +219,10 @@ header img {
   .body__wrapper {
     margin-top: -50px;
   }
+  .why__goal .our__why ul,
+  .why__goal .our__goal ul {
+    padding-left: 10px;
+  }
   .experience {
     padding: 0px 0;
   }
@@ -255,11 +238,36 @@ header img {
   .body__wrapper {
     margin-top: -50px;
   }
+  .about h1 {
+    font-size: 26px;
+  }
+  .why__goal .our__goal h1,
+  .why__goal .our__why h1 {
+    font-size: 26px;
+  }
+  .experience h1 {
+    font-size: 26px;
+  }
+  .getting h1 {
+    font-size: 26px;
+  }
   .getting h3 {
     font-size: 18px;
   }
   .footer .footer-bg {
     margin-bottom: -20px;
+  }
+}
+
+@media (max-width: 250px) {
+  body h1 {
+    font-size: 22px !important;
+  }
+  header {
+    padding: 10px 0;
+  }
+  .getting h3 {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=main.css.map */

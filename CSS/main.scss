@@ -37,7 +37,7 @@ header {
 
 //body wrapper
 .body__wrapper {
-  margin-top: -200px;
+  margin-top: -10vw;
   .container {
     background-color: $white;
     padding: 0;
@@ -165,34 +165,6 @@ header {
 }
 
 // Media queries from (1920px-390px)
-
-//1920px
-@media (max-width: 1700px) {
-  .body__wrapper {
-    margin-top: -180px;
-  }
-}
-
-//1500px
-@media (max-width: 1500px) {
-  .body__wrapper {
-    margin-top: -140px;
-  }
-}
-
-//1200px
-@media (max-width: 1200px) {
-  .body__wrapper {
-    margin-top: -110px;
-  }
-
-  header {
-    img {
-      margin-top: -40px;
-    }
-  }
-}
-
 //991px
 @media (max-width: 991px) {
   .body__wrapper {
@@ -282,6 +254,14 @@ header {
   .body__wrapper {
     margin-top: -50px;
   }
+  .why__goal {
+    .our__why,
+    .our__goal {
+      ul {
+        padding-left: 10px;
+      }
+    }
+  }
   .experience {
     padding: 0px 0;
   }
@@ -300,12 +280,51 @@ header {
   .body__wrapper {
     margin-top: -50px;
   }
-  .getting h3 {
-    font-size: 18px;
+  .about {
+    h1 {
+      font-size: 26px;
+    }
+  }
+  .why__goal {
+    .our__goal,
+    .our__why {
+      h1 {
+        font-size: 26px;
+      }
+    }
+  }
+  .experience {
+    h1 {
+      font-size: 26px;
+    }
+  }
+  .getting {
+    h1 {
+      font-size: 26px;
+    }
+    h3 {
+      font-size: 18px;
+    }
   }
   .footer {
     .footer-bg {
       margin-bottom: -20px;
+    }
+  }
+}
+@media (max-width: 250px) {
+  body {
+    h1 {
+      font-size: 22px !important;
+    }
+  }
+
+  header{
+    padding: 10px 0;
+  }
+  .getting {
+    h3 {
+      font-size: 16px;
     }
   }
 }
