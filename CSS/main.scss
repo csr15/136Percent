@@ -1,0 +1,310 @@
+//Colors
+$pri: #ff5100;
+$sec: #ff7b3d;
+$black: #000000;
+$text: #707070;
+$body: #c1b796;
+$white: #ffffff;
+
+//Fonts
+$rob: "Roboto", sans-serif;
+$trocchi: "Trocchi", serif;
+
+//Reset
+body {
+  overflow-x: hidden;
+  font-family: $rob;
+  background-color: $body;
+
+  img {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+//Header
+header {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  z-index: 99;
+
+  img {
+    margin-top: -80px;
+    width: 100%;
+  }
+}
+
+//body wrapper
+.body__wrapper {
+  margin-top: -200px;
+  .container {
+    background-color: $white;
+    padding: 0;
+
+    .section__wrapper {
+      padding: 50px 100px 0 100px;
+    }
+  }
+}
+
+//About
+.about {
+  padding: 0;
+
+  h1 {
+    font-family: $trocchi;
+    margin: 5px 0;
+    font-weight: 700;
+    color: $pri;
+    font-size: 32px;
+  }
+  p {
+    color: $text;
+    margin: 20px 0 5px 0;
+    font-size: 18px;
+
+    span {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+}
+
+//Why_goal
+.why__goal {
+  padding: 15px 0;
+  .our__why,
+  .our__goal {
+    img {
+      width: 70px;
+    }
+    h1 {
+      font-size: 32px;
+      color: $pri;
+      font-family: $trocchi;
+      font-weight: 700;
+      margin: 10px 0;
+    }
+    ul {
+      border-left: 2px solid #ff7a3d;
+      padding-left: 20px;
+
+      li {
+        list-style: none;
+        color: $text;
+        margin: 20px 0;
+        font-size: 18px;
+      }
+    }
+  }
+  .our__why ul {
+    width: 70%;
+  }
+}
+
+//Experience
+.experience {
+  padding: 20px 0;
+
+  h1 {
+    font-size: 32px;
+    color: $pri;
+    font-family: $trocchi;
+    font-weight: 700;
+    margin: 5px 0;
+  }
+
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      color: $text;
+      margin: 20px 0;
+    }
+  }
+}
+
+//Getting
+.getting {
+  padding: 25px 0 15px 0;
+  h1 {
+    font-size: 32px;
+    color: $pri;
+    font-family: $trocchi;
+    font-weight: 700;
+    margin: 5px 0 10px 0;
+  }
+  h3 {
+    color: $text;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 20px 0;
+
+    a {
+      text-decoration: none;
+      color: $text;
+      font-weight: 400;
+    }
+  }
+}
+
+//Footer
+.footer {
+  padding: 5px 0 20px 0;
+
+  .footer-bg {
+    width: 100%;
+    margin-bottom: -120px;
+  }
+  .footer-logo {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+// Media queries from (1920px-390px)
+
+//1920px
+@media (max-width: 1700px) {
+  .body__wrapper {
+    margin-top: -180px;
+  }
+}
+
+//1500px
+@media (max-width: 1500px) {
+  .body__wrapper {
+    margin-top: -140px;
+  }
+}
+
+//1200px
+@media (max-width: 1200px) {
+  .body__wrapper {
+    margin-top: -110px;
+  }
+
+  header {
+    img {
+      margin-top: -40px;
+    }
+  }
+}
+
+//991px
+@media (max-width: 991px) {
+  .body__wrapper {
+    margin-top: -100px;
+
+    .container .section__wrapper {
+      padding: 50px 50px 0 50px;
+    }
+  }
+
+  .why__goal {
+    .our__why ul {
+      width: 75%;
+    }
+  }
+
+  .getting h3 {
+    font-size: 22px;
+  }
+  .footer {
+    .footer-bg {
+      margin-bottom: -80px;
+    }
+  }
+}
+
+//768px
+@media (max-width: 768px) {
+  header {
+    img {
+      margin-top: -20px;
+    }
+  }
+  .body__wrapper {
+    margin-top: -80px;
+    .container {
+      .section__wrapper {
+        padding: 50px 20px 0 20px;
+      }
+    }
+  }
+  .about {
+    p {
+      font-size: 14px;
+    }
+  }
+  .why__goal {
+    .our__why,
+    .our__goal {
+      margin: 15px 0;
+      ul {
+        li {
+          font-size: 14px;
+          margin: 15px 0;
+        }
+      }
+    }
+    .our__why {
+      ul {
+        width: 100%;
+      }
+    }
+  }
+  .experience {
+    ul li {
+      font-size: 14px;
+    }
+  }
+  .getting {
+    padding: 5px 0 15px 0;
+    h3 {
+      font-size: 20px;
+    }
+  }
+  .footer {
+    .footer-bg {
+      margin-bottom: -60px;
+    }
+  }
+}
+
+//500px
+@media (max-width: 500px) {
+  header {
+    margin-top: 0px;
+  }
+  .body__wrapper {
+    margin-top: -50px;
+  }
+  .experience {
+    padding: 0px 0;
+  }
+  .footer {
+    .footer-bg {
+      margin-bottom: -40px;
+    }
+  }
+}
+
+//390px
+@media (max-width: 390px) {
+  header {
+    margin-top: 0px;
+  }
+  .body__wrapper {
+    margin-top: -50px;
+  }
+  .getting h3 {
+    font-size: 18px;
+  }
+  .footer {
+    .footer-bg {
+      margin-bottom: -20px;
+    }
+  }
+}

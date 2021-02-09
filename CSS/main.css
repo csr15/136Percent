@@ -1,0 +1,264 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  background-color: #c1b796;
+}
+
+body img {
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  z-index: 99;
+}
+
+header img {
+  margin-top: -80px;
+  width: 100%;
+}
+
+.body__wrapper {
+  margin-top: -200px;
+}
+
+.body__wrapper .container {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.body__wrapper .container .section__wrapper {
+  padding: 50px 100px 0 100px;
+}
+
+.about {
+  padding: 0;
+}
+
+.about h1 {
+  font-family: "Trocchi", serif;
+  margin: 5px 0;
+  font-weight: 700;
+  color: #ff5100;
+  font-size: 32px;
+}
+
+.about p {
+  color: #707070;
+  margin: 20px 0 5px 0;
+  font-size: 18px;
+}
+
+.about p span {
+  display: block;
+  margin: 20px 0;
+}
+
+.why__goal {
+  padding: 15px 0;
+}
+
+.why__goal .our__why img,
+.why__goal .our__goal img {
+  width: 70px;
+}
+
+.why__goal .our__why h1,
+.why__goal .our__goal h1 {
+  font-size: 32px;
+  color: #ff5100;
+  font-family: "Trocchi", serif;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.why__goal .our__why ul,
+.why__goal .our__goal ul {
+  border-left: 2px solid #ff7a3d;
+  padding-left: 20px;
+}
+
+.why__goal .our__why ul li,
+.why__goal .our__goal ul li {
+  list-style: none;
+  color: #707070;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.why__goal .our__why ul {
+  width: 70%;
+}
+
+.experience {
+  padding: 20px 0;
+}
+
+.experience h1 {
+  font-size: 32px;
+  color: #ff5100;
+  font-family: "Trocchi", serif;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.experience ul {
+  padding: 0;
+}
+
+.experience ul li {
+  list-style: none;
+  color: #707070;
+  margin: 20px 0;
+}
+
+.getting {
+  padding: 25px 0 15px 0;
+}
+
+.getting h1 {
+  font-size: 32px;
+  color: #ff5100;
+  font-family: "Trocchi", serif;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+}
+
+.getting h3 {
+  color: #707070;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+.getting h3 a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 5px 0 20px 0;
+}
+
+.footer .footer-bg {
+  width: 100%;
+  margin-bottom: -120px;
+}
+
+.footer .footer-logo {
+  width: 30%;
+  margin: auto;
+}
+
+@media (max-width: 1700px) {
+  .body__wrapper {
+    margin-top: -180px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .body__wrapper {
+    margin-top: -140px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .body__wrapper {
+    margin-top: -110px;
+  }
+  header img {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .body__wrapper {
+    margin-top: -100px;
+  }
+  .body__wrapper .container .section__wrapper {
+    padding: 50px 50px 0 50px;
+  }
+  .why__goal .our__why ul {
+    width: 75%;
+  }
+  .getting h3 {
+    font-size: 22px;
+  }
+  .footer .footer-bg {
+    margin-bottom: -80px;
+  }
+}
+
+@media (max-width: 768px) {
+  header img {
+    margin-top: -20px;
+  }
+  .body__wrapper {
+    margin-top: -80px;
+  }
+  .body__wrapper .container .section__wrapper {
+    padding: 50px 20px 0 20px;
+  }
+  .about p {
+    font-size: 14px;
+  }
+  .why__goal .our__why,
+  .why__goal .our__goal {
+    margin: 15px 0;
+  }
+  .why__goal .our__why ul li,
+  .why__goal .our__goal ul li {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  .why__goal .our__why ul {
+    width: 100%;
+  }
+  .experience ul li {
+    font-size: 14px;
+  }
+  .getting {
+    padding: 5px 0 15px 0;
+  }
+  .getting h3 {
+    font-size: 20px;
+  }
+  .footer .footer-bg {
+    margin-bottom: -60px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    margin-top: 0px;
+  }
+  .body__wrapper {
+    margin-top: -50px;
+  }
+  .experience {
+    padding: 0px 0;
+  }
+  .footer .footer-bg {
+    margin-bottom: -40px;
+  }
+}
+
+@media (max-width: 390px) {
+  header {
+    margin-top: 0px;
+  }
+  .body__wrapper {
+    margin-top: -50px;
+  }
+  .getting h3 {
+    font-size: 18px;
+  }
+  .footer .footer-bg {
+    margin-bottom: -20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
