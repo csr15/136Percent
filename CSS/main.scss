@@ -164,9 +164,19 @@ header {
   }
 }
 
-// Media queries from (1920px-390px)
+// Media queries from (1200px-390px)
+@media(max-width: 1200px){
+  header{
+    img{
+      margin-top: -50px;
+    }
+  }
+}
 //991px
 @media (max-width: 991px) {
+  header img{
+    margin-top: -40px;
+  }
   .body__wrapper {
     margin-top: -100px;
 
@@ -280,6 +290,10 @@ header {
 @media (max-width: 390px) {
   header {
     margin-top: 0px;
+
+    img{
+      margin-top: -20px;
+    }
   }
   .about {
     h1 {
