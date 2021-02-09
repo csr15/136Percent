@@ -216,9 +216,6 @@ header img {
   header {
     margin-top: 0px;
   }
-  .body__wrapper {
-    margin-top: -50px;
-  }
   .why__goal .our__why ul,
   .why__goal .our__goal ul {
     padding-left: 10px;
@@ -234,9 +231,6 @@ header img {
 @media (max-width: 390px) {
   header {
     margin-top: 0px;
-  }
-  .body__wrapper {
-    margin-top: -50px;
   }
   .about h1 {
     font-size: 26px;
