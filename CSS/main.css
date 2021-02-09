@@ -212,6 +212,12 @@ header img {
   }
 }
 
+@media (max-width: 570px) {
+  .body__wrapper {
+    margin-top: -9vw;
+  }
+}
+
 @media (max-width: 500px) {
   header {
     margin-top: 0px;

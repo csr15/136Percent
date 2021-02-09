@@ -246,6 +246,13 @@ header {
   }
 }
 
+//574
+@media(max-width: 570px){
+  .body__wrapper{
+    margin-top: -9vw;
+  }
+}
+
 //500px
 @media (max-width: 500px) {
   header {
