@@ -16,9 +16,9 @@ body {
   font-family: $rob;
   background-color: $body;
 
-  img {
+  img,
+  svg {
     width: 100%;
-    margin: auto;
   }
 }
 
@@ -29,8 +29,8 @@ header {
   margin: 0;
   z-index: 99;
 
-  img {
-    margin-top: -80px;
+  svg {
+    margin-top: -5vw;
     width: 100%;
   }
 }
@@ -76,7 +76,8 @@ header {
   padding: 15px 0;
   .our__why,
   .our__goal {
-    img {
+    img,
+    svg {
       width: 70px;
     }
     h1 {
@@ -99,11 +100,11 @@ header {
     }
   }
 
-  .our__why{
-    ul{
+  .our__why {
+    ul {
       width: 95%;
 
-      li{
+      li {
         margin-top: 27px;
       }
     }
@@ -172,25 +173,28 @@ header {
 }
 
 // Media queries from (1200px-390px)
-@media(max-width: 1200px){
-  header{
-    img{
+@media (max-width: 1200px) {
+  header {
+    img,
+    svg {
       margin-top: -50px;
     }
   }
-  .why__goal{
-    .our__why{
+  .why__goal {
+    .our__why {
       ul {
         width: 80%;
-        li{
-        margin-top: 30px;
-      }}
+        li {
+          margin-top: 32px;
+        }
+      }
     }
   }
 }
 //991px
 @media (max-width: 991px) {
-  header img{
+  header img,
+  svg {
     margin-top: -40px;
   }
   .body__wrapper {
@@ -205,7 +209,7 @@ header {
     .our__why ul {
       width: 80%;
 
-      li{
+      li {
         margin-top: 27px;
       }
     }
@@ -224,7 +228,8 @@ header {
 //768px
 @media (max-width: 768px) {
   header {
-    img {
+    img,
+    svg {
       margin-top: -20px;
     }
   }
@@ -277,9 +282,9 @@ header {
 }
 
 //574
-@media(max-width: 570px){
-  .body__wrapper{
-    margin-top: -10vw;
+@media (max-width: 570px) {
+  .body__wrapper {
+    margin-top: -12vw;
   }
 }
 
@@ -288,9 +293,9 @@ header {
   header {
     margin-top: 0px;
   }
-  .body__wrapper{
-    .container{
-      .section__wrapper{
+  .body__wrapper {
+    .container {
+      .section__wrapper {
         padding: 20px 20px 0 20px;
       }
     }
@@ -318,7 +323,8 @@ header {
   header {
     margin-top: 0px;
 
-    img{
+    img,
+    svg {
       margin-top: -15px;
     }
   }
@@ -354,6 +360,8 @@ header {
     }
   }
 }
+
+//250px
 @media (max-width: 250px) {
   body {
     h1 {
@@ -361,15 +369,11 @@ header {
     }
   }
 
-  header{
+  header {
     padding: 10px 0;
   }
-  .body__wrapper{
-    .container{
-      .section__wrapper{
-        margin-top: -15vw;
-      }
-    }
+  .body__wrapper {
+    margin-top: -17vw;
   }
   .getting {
     h3 {

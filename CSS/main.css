@@ -4,9 +4,9 @@ body {
   background-color: #c1b796;
 }
 
-body img {
+body img,
+body svg {
   width: 100%;
-  margin: auto;
 }
 
 header {
@@ -16,8 +16,8 @@ header {
   z-index: 99;
 }
 
-header img {
-  margin-top: -80px;
+header svg {
+  margin-top: -5vw;
   width: 100%;
 }
 
@@ -62,7 +62,9 @@ header img {
 }
 
 .why__goal .our__why img,
-.why__goal .our__goal img {
+.why__goal .our__why svg,
+.why__goal .our__goal img,
+.why__goal .our__goal svg {
   width: 70px;
 }
 
@@ -160,19 +162,21 @@ header img {
 }
 
 @media (max-width: 1200px) {
-  header img {
+  header img,
+  header svg {
     margin-top: -50px;
   }
   .why__goal .our__why ul {
     width: 80%;
   }
   .why__goal .our__why ul li {
-    margin-top: 30px;
+    margin-top: 32px;
   }
 }
 
 @media (max-width: 991px) {
-  header img {
+  header img,
+  svg {
     margin-top: -40px;
   }
   .body__wrapper {
@@ -196,7 +200,8 @@ header img {
 }
 
 @media (max-width: 768px) {
-  header img {
+  header img,
+  header svg {
     margin-top: -20px;
   }
   .body__wrapper {
@@ -236,7 +241,7 @@ header img {
 
 @media (max-width: 570px) {
   .body__wrapper {
-    margin-top: -10vw;
+    margin-top: -12vw;
   }
 }
 
@@ -263,7 +268,8 @@ header img {
   header {
     margin-top: 0px;
   }
-  header img {
+  header img,
+  header svg {
     margin-top: -15px;
   }
   .about h1 {
@@ -294,8 +300,8 @@ header img {
   header {
     padding: 10px 0;
   }
-  .body__wrapper .container .section__wrapper {
-    margin-top: -15vw;
+  .body__wrapper {
+    margin-top: -17vw;
   }
   .getting h3 {
     font-size: 16px;
