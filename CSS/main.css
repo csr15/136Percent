@@ -281,6 +281,9 @@ header img {
   header {
     padding: 10px 0;
   }
+  .body__wrapper .container .section__wrapper {
+    margin-top: -15vw;
+  }
   .getting h3 {
     font-size: 16px;
   }
