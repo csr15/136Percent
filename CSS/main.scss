@@ -173,6 +173,74 @@ header {
 }
 
 // Media queries from (1200px-390px)
+@media (max-width: 2000px) {
+  #Background {
+    transform: translate(20vw, 74.142px) scale(0.8) !important;
+    -webkit-transform: translate(20vw, 74.142px) scale(0.8) !important;
+    -moz-transform: translate(20vw, 74.142px) scale(0.8) !important;
+    -ms-transform: translate(20vw, 74.142px) scale(0.8) !important;
+    -o-transform: translate(20vw, 74.142px) scale(0.8) !important;
+  }
+  #Enough_of_Us_Together {
+    transform: translate(1600px, 158px) !important;
+    -webkit-transform: translate(1600px, 158px) !important;
+    -moz-transform: translate(1600px, 158px) !important;
+    -ms-transform: translate(1600px, 158px) !important;
+    -o-transform: translate(1600px, 158px) !important;
+    font-size: 50px;
+  }
+}
+@media (max-width: 1700px) {
+  #Background {
+    transform: translate(17vw, 74.142px) !important;
+    -webkit-transform: translate(17vw, 74.142px) !important;
+    -moz-transform: translate(17vw, 74.142px) !important;
+    -ms-transform: translate(17vw, 74.142px) !important;
+    -o-transform: translate(17vw, 74.142px) !important;
+  }
+  #Enough_of_Us_Together {
+    transform: translate(1700px, 158px) !important;
+    -webkit-transform: translate(1600px, 158px) !important;
+    -moz-transform: translate(1700px, 158px) !important;
+    -ms-transform: translate(1700px, 158px) !important;
+    -o-transform: translate(1700px, 158px) !important;
+    font-size: 60px;
+  }
+}
+@media (max-width: 1500px) {
+  #Background {
+    transform: translate(15vw, 74.142px) !important;
+    -webkit-transform: translate(15vw, 74.142px) !important;
+    -moz-transform: translate(15vw, 74.142px) !important;
+    -ms-transform: translate(15vw, 74.142px) !important;
+    -o-transform: translate(15vw, 74.142px) !important;
+  }
+  #Enough_of_Us_Together {
+    transform: translate(1680px, 158px) !important;
+    -webkit-transform: translate(1680px, 158px) !important;
+    -moz-transform: translate(1680px, 158px) !important;
+    -ms-transform: translate(1680px, 158px) !important;
+    -o-transform: translate(1680px, 158px) !important;
+    font-size: 60px;
+  }
+}
+@media (max-width: 1300px) {
+  #Background {
+    transform: translate(10vw, 74.142px) !important;
+    -webkit-transform: translate(10vw, 74.142px) !important;
+    -moz-transform: translate(10vw, 74.142px) !important;
+    -ms-transform: translate(10vw, 74.142px) !important;
+    -o-transform: translate(10vw, 74.142px) !important;
+  }
+  #Enough_of_Us_Together {
+    transform: translate(1770px, 158px) !important;
+    -webkit-transform: translate(1770px, 158px) !important;
+    -moz-transform: translate(1770px, 158px) !important;
+    -ms-transform: translate(1770px, 158px) !important;
+    -o-transform: translate(1770px, 158px) !important;
+    font-size: 60px;
+  }
+}
 @media (max-width: 1200px) {
   header {
     img,
@@ -193,6 +261,21 @@ header {
 }
 //991px
 @media (max-width: 991px) {
+  #Background {
+    transform: translate(20vw, 74.142px) !important;
+    -webkit-transform: translate(20vw, 74.142px) !important;
+    -moz-transform: translate(20vw, 74.142px) !important;
+    -ms-transform: translate(20vw, 74.142px) !important;
+    -o-transform: translate(20vw, 74.142px) !important;
+  }
+  #Enough_of_Us_Together {
+    transform: translate(1650px, 158px) !important;
+    -webkit-transform: translate(1650px, 158px) !important;
+    -moz-transform: translate(1650px, 158px) !important;
+    -ms-transform: translate(1650px, 158px) !important;
+    -o-transform: translate(1650px, 158px) !important;
+    font-size: 60px;
+  }
   header img,
   svg {
     margin-top: -40px;
@@ -227,6 +310,21 @@ header {
 
 //768px
 @media (max-width: 768px) {
+  #Background {
+    transform: translate(35vw, 74.142px) !important;
+    -webkit-transform: translate(35vw, 74.142px) !important;
+    -moz-transform: translate(35vw, 74.142px) !important;
+    -ms-transform: translate(35vw, 74.142px) !important;
+    -o-transform: translate(35vw, 74.142px) !important;
+  }
+  #Enough_of_Us_Together {
+    transform: translate(1600px, 158px) !important;
+    -webkit-transform: translate(1600px, 158px) !important;
+    -moz-transform: translate(1600px, 158px) !important;
+    -ms-transform: translate(1600px, 158px) !important;
+    -o-transform: translate(1600px, 158px) !important;
+    font-size: 60px;
+  }
   header {
     img,
     svg {
@@ -286,6 +384,14 @@ header {
   .body__wrapper {
     margin-top: -12vw;
   }
+  #Enough_of_Us_Together {
+    transform: translate(1700px, 158px) !important;
+    -webkit-transform: translate(1700px, 158px) !important;
+    -moz-transform: translate(1700px, 158px) !important;
+    -ms-transform: translate(1700px, 158px) !important;
+    -o-transform: translate(1700px, 158px) !important;
+    font-size: 60px;
+}
 }
 
 //500px
