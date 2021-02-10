@@ -93,6 +93,10 @@ header img {
   width: 95%;
 }
 
+.why__goal .our__why ul li {
+  margin-top: 27px;
+}
+
 .experience {
   padding: 20px 0;
 }
@@ -159,6 +163,12 @@ header img {
   header img {
     margin-top: -50px;
   }
+  .why__goal .our__why ul {
+    width: 80%;
+  }
+  .why__goal .our__why ul li {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -172,7 +182,10 @@ header img {
     padding: 50px 50px 0 50px;
   }
   .why__goal .our__why ul {
-    width: 75%;
+    width: 80%;
+  }
+  .why__goal .our__why ul li {
+    margin-top: 27px;
   }
   .getting h3 {
     font-size: 20px;
