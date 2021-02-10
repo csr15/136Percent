@@ -62,7 +62,7 @@ header {
   p {
     color: $text;
     margin: 20px 0 5px 0;
-    font-size: 18px;
+    font-size: 16px;
 
     span {
       display: block;
@@ -94,12 +94,15 @@ header {
         list-style: none;
         color: $text;
         margin: 20px 0;
-        font-size: 18px;
+        font-size: 16px;
       }
     }
   }
-  .our__why ul {
-    width: 70%;
+
+  .our__why{
+    ul{
+      width: 95%;
+    }
   }
 }
 
@@ -111,7 +114,7 @@ header {
     font-size: 32px;
     color: $pri;
     font-family: $trocchi;
-    font-weight: 700;
+    font-weight: bold;
     margin: 5px 0;
   }
 
@@ -121,7 +124,7 @@ header {
       list-style: none;
       color: $text;
       margin: 20px 0;
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 }
@@ -139,7 +142,7 @@ header {
   h3 {
     color: $text;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 22px;
     margin: 20px 0;
 
     a {
@@ -192,7 +195,7 @@ header {
   }
 
   .getting h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .footer {
     .footer-bg {

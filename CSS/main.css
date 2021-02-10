@@ -49,7 +49,7 @@ header img {
 .about p {
   color: #707070;
   margin: 20px 0 5px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .about p span {
@@ -86,11 +86,11 @@ header img {
   list-style: none;
   color: #707070;
   margin: 20px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .why__goal .our__why ul {
-  width: 70%;
+  width: 95%;
 }
 
 .experience {
@@ -101,7 +101,7 @@ header img {
   font-size: 32px;
   color: #ff5100;
   font-family: "Trocchi", serif;
-  font-weight: 700;
+  font-weight: bold;
   margin: 5px 0;
 }
 
@@ -113,7 +113,7 @@ header img {
   list-style: none;
   color: #707070;
   margin: 20px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .getting {
@@ -131,7 +131,7 @@ header img {
 .getting h3 {
   color: #707070;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 22px;
   margin: 20px 0;
 }
 
@@ -175,7 +175,7 @@ header img {
     width: 75%;
   }
   .getting h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .footer .footer-bg {
     margin-bottom: -80px;
